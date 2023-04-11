@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+body,
+html {
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+    
+}
+
+.section1 {
+    width: 100%;
+    background-color: aqua;
+    height: 60vh;
+    background:
+        linear-gradient(to right,
+            rgb(0 0 0/ 1),
+            rgb(0 0 0 / 0)),
+        url('./img/pexels-andrea-piacquadio-3762800.jpg');
+
+
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column; */
+
+
+}
+
+#nav-logo {
+    font-weight: bolder;
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+#navbarNavAltMarkup {
+    font-weight: bolder;
+    margin-right: 5%;
+    font-size: x-large;
+    padding: 20px 20px;
+}
+
+/* .navbar-toggler{
+    background: aqua;
+} */
+
+.section1 h1 {
+    margin-top: 100px;
+ text-align: left;
+    color: whitesmoke;
+
+}
+
+.section1 p {
+   
+    text-align: left;
+    color: whitesmoke;
+    
+   
+
+}
+
+.section-2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 90vh;
+}
+
+
+.card {
+
+    opacity: 70%;
+    box-shadow: 15px 15px 40px rgba(4, 27, 87, 0.15);
+
+}
+
+.card-body i {
+    font-size: 4vmin;
+}
+
+.section-3 {
+    width: 100%;
+    height: 90vh;
+    
+
+}
+.section-3 h1 {
+    color: blue;
+   
+}
+
+
+.section-3 i{
+font-size: medium;
+    
+
+}
+/* .line{
+    width: 600px;
+    padding: auto;
+    height: 3px;
+    color: blueviolet;
+    border: solid;
+    align-items: center;
+    border-radius: 50%;
+
+} */
+
+@media only screen and (max-width:850px) {
+
+    .section1 h1 {
+
+        text-align:end;
+        opacity: 70%;
+    }
+
+    .section1 button {
+        margin-left: 30%;
+        display: none;
+
+    }
+    .section1 p {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .section-2 {
+        height: 100vh;
+    }
+
+    .section-3 img{
+        display: none;
+    }
+    .section-3{
+        margin-top: 45%;
+        
+    }
+    .section-3 i{
+        font-size: medium;
+        
+    }
+
+    .card {
+        margin: 4% 4%;
+        font-size: 5vmin;
+        height: 20%;
+    }
+
+    .card-body h1 {
+        font-size: vim;
+    }
+
+    .card-body p {
+        font-size: 1vim;
+    }
+
+}
+
+
+
+
+
